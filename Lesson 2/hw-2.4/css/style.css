@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section div {
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    line-height: 100px;
+}
+
+.rubik {
+    background-color: #ee5a5a;
+    font-family: 'Rubik Pixels', cursive;
+}
+
+.sedgwick {
+    background-color: #10302e;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.dancing {
+    background-color: #45b7d1;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fjalla {
+    background-color: #f0bd04;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.indie {
+    background-color: #3c28d6;
+    font-family: 'Indie Flower', cursive;
+}
