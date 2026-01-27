@@ -25,6 +25,13 @@ h1 {
     flex-wrap:  wrap;
 }
 
+label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 .card img {
     max-width: 120px;
     width: 100%;
