@@ -20,9 +20,11 @@ h1 {
 }
 
 .card {
+    list-style: none;
+    padding: 0;
     display: flex;
     justify-content: space-around;
-    flex-wrap:  wrap;
+    flex-wrap: wrap;
 }
 
 label {
@@ -37,8 +39,8 @@ label {
     width: 100%;
 }
 
-.card div {
-    padding:20px;
+.card li {
+    padding: 20px;
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
