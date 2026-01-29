@@ -1,0 +1,30 @@
+body {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+header,
+main div,
+footer {
+    background-color: rgb(32, 115, 198);
+    height: 20vw;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main div {
+    width: 32%;
+
+    margin-bottom: 20px;
+}
