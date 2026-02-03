@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+header {
+    height: 20vh;
+    background-color: #8D8484;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    display: flex;
+    color: #fff;
+}
+
+.main__contents {
+    width: 73vw;
+
+}
+
+.main__contents section {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__contents-content-1 {
+    background-color: #776969;
+
+}
+
+.main__contents-content-2 {
+    background-color: #643030;
+}
+
+.main__contents-content-3 {
+    background-color: #441818;
+}
+
+.main__spam {
+    width: 27vw;
+}
+
+.main__spam aside {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__spam-1 {
+    background-color: #937575;
+}
+
+.main__spam-2 {
+    background-color: #644C4C;
+}
+
+footer {
+    height: 20vh;
+    background-color: #BDBDBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
