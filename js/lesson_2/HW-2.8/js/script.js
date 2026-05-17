@@ -1,4 +1,4 @@
-const day = Number(prompt('Enter a day number from 1 to 31'));
+const day = +(prompt('Enter a day number from 1 to 31'));
 
 if (day >= 1 && day <= 31) {
     if (day <= 10) {
