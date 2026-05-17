@@ -1,4 +1,4 @@
-const dayNumber = Number(prompt('Enter a day number from 1 to 7'));
+const dayNumber = +(prompt('Enter a day number from 1 to 7'));
 
 switch (dayNumber) {
     case 1:
