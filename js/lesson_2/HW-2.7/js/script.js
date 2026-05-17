@@ -1,4 +1,4 @@
-const time = Number(prompt('Enter a number from 0 to 59'));
+const time = +(prompt('Enter a number from 0 to 59'));
 
 if (time >= 0 && time <= 59) {
     if (time <= 14) {
